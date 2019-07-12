@@ -21,7 +21,5 @@ if [ "$1" = "uninstall" ]; then
 	fi
 else
 	cp usr/* /usr/share/keyrings/
-	if [ -x /usr/bin/apt-key ]; then
-		/usr/bin/apt-key add /usr/share/keyrings/sparkylinux.gpg.key
-	fi
+	cp usr/* /etc/apt/trusted.gpg.d/
 fi
