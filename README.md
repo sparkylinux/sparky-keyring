@@ -1,7 +1,7 @@
 Sparky Keyring
 The SparkyLinux repository digitally signs its files. The package contains the repository key used for that.
  
-Copyright (C) 2015-2019 Paweł Pijanowski
+Copyright (C) 2015-2020 Paweł Pijanowski
 License: GPLv2
 
 This program is free software: you can redistribute it and/or modify
