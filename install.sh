@@ -21,5 +21,5 @@ if [ "$1" = "uninstall" ]; then
 	fi
 else
 	cp usr/* /usr/share/keyrings/
-	cp usr/* /etc/apt/trusted.gpg.d/
+	# cp usr/* /etc/apt/trusted.gpg.d/
 fi
